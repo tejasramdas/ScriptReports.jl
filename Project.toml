@@ -3,6 +3,10 @@ uuid = "c82720c6-1a4a-47b5-9380-ac867c306647"
 authors = ["Tejas Ramdas <tejas.ramdas@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
+
 [compat]
 julia = "1.10"
 
