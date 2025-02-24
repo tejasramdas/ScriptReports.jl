@@ -4,6 +4,7 @@ ScriptReports.jl is a Julia package that allows you to create reports from Julia
 
 ##### Usage
 
-This package exports a single function called ```generate_report``` that takes in a ```.jl``` file interleaved with Markdown, runs it through Literate to generate a ```.jmd``` file with some modifications, and then runs it through Weave to generate an HTML file. It supports additional decorators to allow for hiding source code and using ```<details>``` blocks.
+This package exports a single function called ```generate_report``` that takes in a ```.jl``` file interleaved with Markdown, runs it through Literate to generate a ```.jmd``` file with some modifications, and then runs it through Weave to generate an HTML file. It supports additional decorators to allow for hiding source code and using ```<details>``` blocks. This will hopefully support more source file parsing and customization in the future. 
 
 See the ```examples``` folder for a quick tutorial. The final output looks something like [this](https://html-preview.github.io/?url=https://github.com/tejasramdas/ScriptReports.jl/blob/main/example/example.html).
+
