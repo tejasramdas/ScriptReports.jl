@@ -22,7 +22,7 @@ function generate_report(in_path::String; out_path::String = ".")
                     ``` 
 
                     """ 
-    temp_md = vcat(add_dropdown,temp_md)
+    temp_md = vcat(temp_md,add_dropdown)
     for i in 1:length(temp_md)
         if length(temp_md[i]) >=4 && temp_md[i][1:4]=="````"
             temp_md[i] = "```"*temp_md[i][5:end]
